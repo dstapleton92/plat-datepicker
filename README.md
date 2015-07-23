@@ -17,9 +17,10 @@ You can view the working example at http://localhost:3000. The date picker will 
 
 ## Roadmap
 This is the date picker roadmap. I will update it with goals as time goes on.
-    1. Allow the minimum and maximum years to be set with plat-options. Right now, they are arbitrarily set in two places:
-        - In datepicker.tc.ts: In the class variables minYear and maxYear.
-        - In datepicker.tc.html: In the min and max declaration within the plat-options field of the year slider.
+
+- Allow the minimum and maximum years to be set with plat-options. Right now, they are arbitrarily set in two places:
+    - In datepicker.tc.ts: In the class variables minYear and maxYear.
+    - In datepicker.tc.html: In the min and max declaration within the plat-options field of the year slider.
     
 ### Useful Scripts
 
