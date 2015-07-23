@@ -25,9 +25,11 @@ When you're ready to use the control, simply type the following in your HTML fil
 ```
 
 **Note** `date` should be an object on your context that conforms to the following interface:
-- day: number;
-- month: number;
-- year: number;
+```
+day: number;
+month: number;
+year: number;
+```
 
 ### About the Date Values
 - `month` is expecting, and returns, a value 1-12 representing January - December.
