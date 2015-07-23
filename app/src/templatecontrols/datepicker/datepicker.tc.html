@@ -1,0 +1,8 @@
+<div class="datepicker-center-container">
+    <p class="datepicker-dateLabel">{{year}}</p>
+    <p><plat-slider plat-change="validate()" plat-bind="year" plat-options="{ min: 1930, max: 2015 }"></plat-slider></p>
+    <p class="datepicker-dateLabel">{{monthName}}</p>
+    <p><plat-slider plat-change="validate()" plat-react="updateMonthName()" plat-bind="month" plat-options="{ min: 1, max: 12 }"></plat-slider></p>
+    <p class="datepicker-dateLabel">{{day}}</p>
+    <p><plat-slider plat-change="validate()" plat-bind="day" plat-options="{ min: 1, max: 31 }"></plat-slider></p>
+</div>
