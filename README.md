@@ -8,12 +8,26 @@ Use `npm install` to install the dependencies for this package.
 
 Use `npm run prepublish` to install the typings and get the project ready for compilation. Depending on your IDE, you may need to quit your IDE and open it again to dismiss any code warnings.
 
-## Running
+## Running the Sample
 Use `npm run build` to build the project.
 
 Use `npm run start` to start a local web server on port 3000.
 You can view the working example at http://localhost:3000. The date picker will be initialized to today's date.
 
+## Use
+To use the date picker in your project, simply copy the datepicker directory from the templatecontrols directory into the same directory for your project.
+Also, remember to `@import` the control's less file into your project's main less file.
+
+When you're ready to use the control, simply type the following in your HTML file:
+
+```
+<datepicker plat-context="date"></datepicker>
+```
+
+**Note*** `date` should be an object on your context that conforms to the following interface:
+- day: number;
+- month: number;
+- year: number;
 
 ## Roadmap
 This is the date picker roadmap. I will update it with goals as time goes on.
