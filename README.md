@@ -29,6 +29,11 @@ When you're ready to use the control, simply type the following in your HTML fil
 - month: number;
 - year: number;
 
+### About the Date Values
+- `month` is expecting, and returns, a value 1-12 representing January - December.
+- `day` is expecting, and returns, a value 1-31 representing the day of the month.
+- `year` is expecting, and returns, a 4-digit year.
+
 ## Roadmap
 This is the date picker roadmap. I will update it with goals as time goes on.
 
