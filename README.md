@@ -24,7 +24,7 @@ When you're ready to use the control, simply type the following in your HTML fil
 <datepicker plat-context="date"></datepicker>
 ```
 
-**Note*** `date` should be an object on your context that conforms to the following interface:
+**Note** `date` should be an object on your context that conforms to the following interface:
 - day: number;
 - month: number;
 - year: number;
